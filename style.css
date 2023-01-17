@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: large;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 30px;
+
+    /* font-family: 'Roboto';font-size: 22px; */
+
+}
+
+#container {
+    width: 45%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #a6ccd0;
+}
+
+#container * {
+    width: 200px;
+    font-size: 20px;
+    background-color: #59adb6;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+#container>button {
+    padding: 10px 20px;
+    color: #000000;
+    background-color: #092d2f;
+    border: none;
+    color: #0000ff;
+}
+
+
+
+
+#winner {
+    width: 400px;
+    background-color: #235c00;
+    color: #ffffff;
+}
+
+
+/* RESPONSIVE */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+
+    #container {
+        width: 70%;
+        margin: 50px auto;
+        text-align: center;
+        padding: 20px 0;
+        background-color: #a6ccd0;
+    }
+
+    #container * {
+        
+        width: 150px;
+        font-size: 20px;
+        background-color: #59adb6;
+        margin: 30px auto;
+        padding: 15px;
+        border-radius: 50px;
+    }
+
+    #container>button {
+        padding: 10px 30px;
+        color: #000000;
+        background-color: #092d2f;
+        border: none;
+        color: #0000ff;
+    }
+
+    #winner {
+        width: 200px;
+        background-color: #235c00;
+        color: #ffffff;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 700px) {
+
+    
+
+    #container {
+       
+        width: 45%;
+        margin: 50px auto;
+        text-align: center;
+        padding: 20px 0;
+        background-color: #a6ccd0;
+    }
+
+    #container * {
+        width: 200px;
+        font-size: 20px;
+        background-color: #59adb6;
+        margin: 19px auto;
+        padding: 15px;
+        border-radius: 50px;
+    }
+
+    #container>button {
+        padding: 10px 30px;
+        color: #000000;
+        background-color: #092d2f;
+        border: none;
+        color: #0000ff;
+    }
+
+    #winner {
+        width: 250px;
+        background-color: #235c00;
+        color: #ffffff;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    #container * {
+        width: 200px;
+        font-size: 20px;
+        background-color: #59adb6;
+        margin: 30px auto;
+        padding: 15px;
+        border-radius: 50px;
+    }
+
+    #winner {
+        width: 250px;
+        background-color: #235c00;
+        color: #ffffff;
+    }
+
+}
+
+
+@media (max-width: 300px) {
+
+    #container * {
+        width: 250px;
+        font-size: 20px;
+        background-color: #59adb6;
+        margin: 30px auto;
+        padding: 15px;
+        border-radius: 50px;
+    }
+
+    #winner {
+        width: 100px;
+        background-color: #235c00;
+        color: #ffffff;
+    }
+
+}
+
+@media (max-width: 299px) {
+
+    #container * {
+        width: 250px;
+        font-size: 20px;
+        background-color: #59adb6;
+        margin: 30px auto;
+        padding: 15px;
+        border-radius: 50px;
+    }
+
+    #winner {
+        width: 50px;
+        background-color: #235c00;
+        color: #ffffff;
+    }
+
+}
+
+@media (max-width: 548px) {
+
+    #container * {
+       
+        width: 150px;
+        font-size: 20px;
+        background-color: #59adb6;
+        margin: 20px auto;
+        padding: 5px;
+        border-radius: 50px;
+    }
+
+    #winner {
+        width:190px;
+        background-color: #235c00;
+        color: #ffffff;
+    }
+
+}
+
+@media (max-width: 699px) {
+
+    #container * {
+       
+        width: 150px;
+        font-size: 20px;
+        background-color: #59adb6;
+        margin: 20px auto;
+        padding: 5px;
+        border-radius: 50px;
+    }
+
+    #winner {
+        width:190px;
+        background-color: #235c00;
+        color: #ffffff;
+    }
+
+}
